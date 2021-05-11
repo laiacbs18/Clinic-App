@@ -37,4 +37,6 @@ body {
 .loginButton {
   background: #006199;
   border: #005180 3px solid;
+  max-width: fit-content;
+  margin: auto;
 }
