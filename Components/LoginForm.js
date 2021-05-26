@@ -1,10 +1,10 @@
-import React, { Component } from "react";
+import React from "react";
 import Form from "react-bootstrap/Form";
 import InputField from "./InputField";
 import FormMutedText from "./FormMutedText";
 import SubmitButton from "./SubmitButton";
 
-class LoginForm extends Component {
+class LoginForm extends React.Component {
   render() {
     return (
       <Form className="loginForm">
